@@ -1,14 +1,15 @@
-import React from 'react';
-import UserForm from './components/UserForm'
-import MovieForm from './components/MovieForm'
+import React, { useState } from 'react';
+import Box from './components/Box';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <UserForm />
-      <MovieForm />
-    </div>
+    <>
+      <Box />
+    </>
   );
 }
 
 export default App;
+
